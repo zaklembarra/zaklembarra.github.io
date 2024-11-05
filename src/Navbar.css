@@ -1,6 +1,7 @@
 .navbar ul {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 .navbar li {
