@@ -1,0 +1,21 @@
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    will-change: filter;
+    transition: filter 500ms;
+}
+
+.navbar li:hover {
+    color: orange;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 2em orange);
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
